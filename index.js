@@ -10,7 +10,7 @@ function getRepoByUsername(username) {
 		return response.json();
 	    }
 	    throw new Error(response.statusText);
-	})
+	});
 }
 
 function updateSearchResults(results) {
